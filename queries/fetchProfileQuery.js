@@ -10,6 +10,10 @@ export default gql`
         __typename
         ... on Post {
           ...PostFields
+          stats {
+            totalDownvotes
+            totalUpvotes
+          }
         }
         ... on Comment {
           ...CommentFields
