@@ -1,4 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Project:
+
+- Set up a Next.js app with an Apollo GraphQL client
+- Use the Lens protocol API to fetch profiles, posts, and other data stored on the Polygon blockchain
+- Use MintKudos API -- so that you can integrate your PoK tokens in your dapp!
+- Use Lit Protocol -- in case you want to encrypt certain posts to only be shown to various community members
+
+
+## Components/Libraries:
+
+- React/Next.js
+- Tailwind
+- NextUI
+- Apollo GraphQL
+
+
+![Screenshot](screenshot_01.png)
+
+
+
+## TODO:
+
+- Finish the project adding:
+- List handle NFTs
+- POST/Comments search by keyword
+- List latest Publications
+- List of Communities with pagination
+
+
 
 ## Getting Started
 
