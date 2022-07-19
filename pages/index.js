@@ -20,7 +20,7 @@ export default function Home() {
             textGradient: "45deg, $blue600 -20%, $pink600 50%",
           }}
           weight="bold">
-          [ Road To Web3 LENS Api ]
+          -[ Road To Web3 LENS Api ]-
         </Text>
         <Spacer y={5} />
 

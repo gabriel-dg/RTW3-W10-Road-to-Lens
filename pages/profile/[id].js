@@ -23,7 +23,7 @@ export default function ProfilePage() {
   if (error) return `Error! ${error.message}`;
 
   return (
-    <div className="flex flex-col p-8 items-center">
+    <div className="flex flex-col p-8 items-center justify-center">
       <Profile profile={data.profile} displayFullProfile={true} />
       {data.publications.items.map((post, idx) => {
         return <Post key={idx} post={post}/>;

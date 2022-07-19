@@ -9,8 +9,8 @@ export default function Profile(props) {
   const displayFullProfile = props.displayFullProfile;
 
   return (
-    <Grid.Container gap={2} justify="center">
-      <Grid xs={12} sm={8}>
+    <Grid.Container  center gap={2} justify="center">
+      <Grid xs={12} sm={8} justify="center">
         {/* <div className="p-8"> */}
         <Card css={{ w: "100%", p: "$4", mw: "600px" }}>
           <Card.Header >
